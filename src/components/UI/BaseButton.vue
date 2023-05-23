@@ -1,12 +1,12 @@
 <template>
-	<button :type="type" :class="mode">
+	<button :class="mode">
 		<slot></slot>
 	</button>
 </template>
 
 <script>
 	export default {
-		props: ["type", "mode"],
+		props: ["mode"],
 	};
 </script>
 
@@ -34,6 +34,6 @@
 
 	.flat:hover,
 	.flat:active {
-		background-color: #bbffacc5;
+		background-color: #ccfbc1;
 	}
 </style>
