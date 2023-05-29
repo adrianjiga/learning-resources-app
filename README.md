@@ -34,8 +34,6 @@ npm run build
 npm run lint
 ```
 
-<hr>
-
 ## Authors
 
 [@adrianjiga](https://github.com/adrianjiga)
